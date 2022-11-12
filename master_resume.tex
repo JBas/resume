@@ -1,0 +1,205 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Medium Length Professional CV
+% LaTeX Template
+% Version 2.0 (8/5/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Rishi Shah 
+%
+% Important note:
+% This template requires the resume.cls file to be in the same directory as the
+% .tex file. The resume.cls file provides the resume style used for structuring the
+% document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------
+
+\documentclass{resume} % Use the custom resume.cls style
+
+\usepackage[left=0.75in,top=0.5in,right=0.75in,bottom=0.5in]{geometry} % Document margins
+\newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}}
+\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+\name{Master Resume -- Joshua Bas} % Your name
+%\address{9111 Cedar River Road, Huntersville, NC 28078} % Your address
+%\address{123 Pleasant Lane \\ City, State 12345} % Your secondary address (optional)
+\address{704.978.9370 \\ joshua.n.bas@gmail.com} % Your phone number and email
+
+\begin{document}
+
+%-------------
+%	EDUCATION
+%-------------
+
+\begin{Section}{Education}
+{\bf Carnegie Mellon University} \hfill {\em May 2020} 
+\\ B.S. in Electrical \& Computer Engineering\hfill %{ Overall Percentage: 68.14 }
+%Minor in Linguistics \smallskip \\
+%Member of Eta Kappa Nu \\
+%Member of Upsilon Pi Epsilon \\
+
+\end{Section}
+
+%-----------------------
+%	Relevant Coursework
+%-----------------------
+\begin{Section}{Relevant Coursework}
+
+\begin{tabular}{ @{} >{\series}l @{\hspace{6ex}} l }
+Introduction to Electrical \& Computer Engineering \\
+Fundamentals of Programming \& Computer Science \\
+Integration and Approximation \\
+Interpretation and Argumentation \\
+Physics I \\
+Introduction to Philosophy \\
+Principles of Imperative Computation \\
+Structure \& Design of Digital Systems \\
+Concepts of Mathematics \\
+Business Law \\
+Solidworks \& Lasercutting \\
+Mathematical Foundations of Electrical Engineering \\
+Fundamentals of Mechanical Engineering \\
+Principles of Child Development \\
+Introduction to Computer Systems \\
+Signals and Systems \\
+Logic Design \& Verification \\
+Physics II \\
+Survey of Forms: Fiction \\
+Foundations of Analog \& Digital Circuitry \\
+Differential Equations \\
+Science and Science Fiction \\
+Probability Theory and Random Processes \\
+Spain: Language and Culture \\
+Topics of Law: IP Law \\
+Computer Vision \\
+Introduction to Embedded Systems \\
+Special Topics: Patents, Licenses, and Innovation \\
+Calculus in 3D \\
+Special Topics: Woodworking \\
+Introduction to Arduino \\
+Intellectual Property and E-Commerce
+\end{tabular}
+
+\end{Section}
+%-------------------
+%	WORK EXPERIENCE
+%-------------------
+
+\begin{Section}{Work Experience}
+
+\begin{Subsection}{SouthLake Christian Academy}{August 2021 - Present}{Math Instructor}{Huntersville, NC}
+\item Taught Algebra II, Algebra II Honors, Geometry Honors, Advanced Functions and Modeling
+\item Developed two 18-week lesson plans for Algebra II and Algebra II Honors
+\item Implemented the ALEKS platform for the Advanced Functions and Modeling curriculum
+% \item Something something about communications
+% \item Something something about speaking/presentation skills
+% \item Inter-personal skills
+\end{Subsection}
+
+\begin{Subsection}{Audition Technology}{June 2019 - May 2020}{Analog Engineer Intern}{Pittsburgh, PA}
+\item Researched digital hearing aid design and multiple hearing aid-specific DSP chips
+\item Created and maintained EagleCAD parts library
+\item Proposed and designed a modular, 2-layer evaluation board
+\item Contributed to meetings with the startup's stakeholders and medical advisor
+\item Scouted an electrical device assembly facility as a potential manufacturing partner
+\end{Subsection}
+
+\begin{Subsection}{Staples}{July 2017 - August 2017}{Sales Associate}{Huntersville, NC}
+\item Presented numerous options to address customers’ product needs
+\item Organized and stocked sales shelves in a timely manner
+\item Efficiently aided customers at the register while gathering feedback of their shopping experience
+\end{Subsection}
+
+\begin{Subsection}{Wendell August}{December 2018}{Sales}{Pittsburgh, PA}
+\item Sold Christmas ornaments and gift items during Pittsburgh’s Christmas Market
+\end{Subsection}
+
+\end{Section}
+
+%-------------
+%    Projects
+%-------------
+\begin{Section}{Projects}
+
+\begin{Subsection}{RISCV Processor (SystemVerilog \& C)}{January 2020 - May 2020}{Introduction to Computer Architecture}
+\item Designed and implemented a 6-stage dual-core processor for the RISCV ISA, particularly the RV32I base. Both cores are capable of the usual logical and arithmetical operations, as well as branches and unconditional jumps; the primary core can also access memory.
+\end{Subsection}
+
+\begin{Subsection}{Patent Analysis Project}{December 2019}{Special Topics: Patents, Licensing, and Innovation}
+\item Conducted patent searches for digital hearing aids with occlusion to identify relevant technology. Summarized patent contents as well as themes and trends among patents. Analyzed patented technology. Designed around patent claims to avoid patent infringement.
+\end{Subsection}
+
+\begin{Subsection}{Real-Time Kernel (C \& ARM Assembly)}{August 2019 - December 2019}{Introduction to Embedded Systems}
+\item Implemented a simple real-time kernel on the STM32F microcontroller capable of executing SVCs and interrupt service routines; communicating via polled/interrupt UART, I2C, and SPI; receiving ADC inputs; and context swapping between different threads. Built on Ubuntu Linux.
+\end{Subsection}
+
+\begin{Subsection}{CMU Mars Ice (C/C++ \& Python)}{October 2018 - June 2019}{2019 Moon to Mars Ice \& Prospecting Challenge}
+\item Created design blocks for PCB using EagleCAD for a drilling robot. Implemented a network with client dropped protocol, as well as the server-side controls system for the robot. Traveled to Langley Research Center to operate the robot.
+\end{Subsection}
+
+\begin{Subsection}{Hackberry Pi Hackathon (Python)}{March 019}{2019 Hackberry Pi Hackathon}
+\item Designed and implemented a proof-of-concept for a Raspberry Pi-controlled automatic plant waterer.
+\end{Subsection}
+
+\begin{Subsection}{SDRAM Controller (SystemVerilog)}{October 2018 - June 2019}{Logic Design and Verification}
+\item Designed a memory controller for a 64MB, 4-banked SDRAM, using VCS (Verilog Compiler Simulator) and Altera Quartus to debug and upload onto the Cyclone V FPGA.
+\end{Subsection}
+
+\begin{Subsection}{Tiny Shell (C)}{July 2018}{Introduction to Computer Systems}
+\item Created a tiny shell that supports I/O redirection, can process multiple background jobs, and handles signals sent via programs or user input.
+\end{Subsection}
+
+\begin{Subsection}{Image Hill Climber (Java)}{June 2017}{Personal Project}
+\item Utilized a hill-climber algorithm to copy an image using a user-defined number of polygons, and number of vertices per polygon, initialized with randomized RGBA values.
+\end{Subsection}
+
+\end{Section}
+
+\begin{Section}{Publications}
+\item Development of Hearing Technology with Personalized Safe Listening Features. Gupta, S.; Xu, X.; Liu, H.; Zhang, J.; {\bf Bas, J.}; Kelly, S. 2019 ITU Kaleidoscope Conference Proceedings. 
+\end{Section}
+
+%------------------
+%	Skills SECTION
+%------------------
+
+\begin{Section}{Skills}
+
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+Programming Languages \ & C/C++, SystemVerilog, Python, ARM Assembly, RISCV Assembly, MatLab, Java, JavaScript \\
+Hardware \ & PCB design, circuit analysis, soldering, lasercutting \\
+Software \& Tools \ & GDB, VCS, Valgrind, EagleCAD, Git, SolidWorks, MS Office, Sound board operation \\
+Other Languages \ & Spanish \\
+\end{tabular}
+
+\end{Section}
+
+%\newpage
+
+%-----------------
+% Extracurricular
+%-----------------
+\begin{Section}{Extracurricular} \itemsep -3pt
+\item CMU Tartan Athletic Fellowship Leader (2017-present)
+\item Middle School Youth Group Volunteer at Church of the Ascension | Pittsburgh, PA (Summer 2018)
+\item Community Service Trip | Pittsburgh, PA (Spring 2018)
+\item CMU Rowing Club (2017)
+\item Community Service Trip | Webster Springs, WV (Spring 2017)
+\item Community Service Trip to Kusi Orphanage | Yungay, Peru (Spring 2016)
+\item Sound Technician | Comuni\'{o}n de Vida (religious organization) (2014-2016)
+\item National Hispanic Recognition Program (2016)
+\item National Honors Society (2012 – 2016)
+\item Beta Club (2012 – 2016)
+\item Varsity Member | SouthLake Christian Academy Cross Country Team (2012 – 2015)
+\item First Chair | SouthLake Christian Academy String Orchestra (2012 – 2014, 2016)
+
+
+
+\end{Section}
+
+\end{document}

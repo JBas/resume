@@ -1,0 +1,132 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Medium Length Professional CV
+% LaTeX Template
+% Version 2.0 (8/5/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Rishi Shah 
+%
+% Important note:
+% This template requires the resume.cls file to be in the same directory as the
+% .tex file. The resume.cls file provides the resume style used for structuring the
+% document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------
+
+\documentclass{resume} % Use the custom resume.cls style
+
+\usepackage[left=0.75in,top=0.5in,right=0.75in,bottom=0.5in]{geometry} % Document margins
+\newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}}
+\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+\name{Joshua Bas} % Your name
+%\address{9111 Cedar River Road, Huntersville, NC 28078} % Your address
+%\address{123 Pleasant Lane \\ City, State 12345} % Your secondary address (optional)
+\address{704.978.9370 \\ joshua.n.bas@gmail.com \\ Charlotte, NC} % Your phone number and email
+
+\begin{document}
+
+%-------------
+%	EDUCATION
+%-------------
+
+\begin{Section}{Education}
+
+{\bf Carnegie Mellon University}, Pittsburgh, PA \hfill {\em May 2020}
+\\ B.S. in Electrical \& Computer Engineering\hfill %{ Overall Percentage: 68.14 }
+%Minor in Linguistics \smallskip \\
+%Member of Eta Kappa Nu \\
+%Member of Upsilon Pi Epsilon \\
+
+\end{Section}
+
+%-----------------------
+%	Relevant Coursework
+%-----------------------
+\begin{Section}{Relevant Coursework}
+
+% \begin{tabular}{ @{} >{\series}l @{\hspace{6ex}} l }
+\begin{tabular}{ll}
+
+Logic Design \& Verification & Introduction to Computer Architecture \\
+Introduction to Embedded Systems & Structure \& Design of Digital Systems \\
+\end{tabular}
+
+\end{Section}
+
+%-------------------
+%	WORK EXPERIENCE
+%-------------------
+
+\begin{Section}{Work Experience}
+
+\begin{Subsection}{Audition Technology}{June 2019 - May 2020}{Analog Engineer Intern}{Pittsburgh, PA}
+\item Researched digital hearing aid design and multiple hearing aid-specific DSP chips, including patents
+\item Scouted an electrical device assembly facility as a potential manufacturing partner
+\item Contributed to meetings with the startup's stakeholders and medical advisor
+\item Proposed and designed a modular, 2-layer evaluation board
+\item Created and maintained EagleCAD parts library
+\end{Subsection}
+
+\end{Section}
+
+%-------------
+%    Projects
+%-------------
+\begin{Section}{Projects}
+\begin{Subsection}{RISCV Processor (SystemVerilog \& C)}{January 2020 - May 2020}{Introduction to Computer Architecture}
+\item Designed and implemented a 6-stage dual-core processor for the RISCV ISA, particularly the RV32I base. Both cores are capable of the usual logical and arithmetical operations, as well as branches and unconditional jumps; the primary core can also access memory.
+\end{Subsection}
+
+\begin{Subsection}{Real-Time Kernel (C \& ARM Assembly)}{August 2019 - December 2019}{Introduction to Embedded Systems}
+\item Implemented a simple real-time kernel on the STM32F microcontroller capable of executing SVCs and interrupt service routines; communicating via polled/interrupt UART, I2C, and SPI; receiving ADC inputs; and context swapping between different threads. Built on Ubuntu Linux.
+\end{Subsection}
+
+\begin{Subsection}{CMU Mars Ice (C/C++ \& Python)}{October 2018 - June 2019}{2019 Moon to Mars Ice \& Prospecting Challenge}
+\item Created design blocks for PCB using EagleCAD for a drilling robot. Implemented a network with client dropped protocol, as well as the server-side controls system for the robot. Traveled to Langley Research Center to operate the robot.
+\end{Subsection}
+
+\begin{Subsection}{SDRAM Controller (SystemVerilog)}{October 2018 - June 2019}{Logic Design and Verification}
+\item Designed a memory controller for a 64MB, 4-banked SDRAM, using VCS (Verilog Compiler Simulator) and Altera Quartus to debug and upload onto the Cyclone V FPGA.
+\end{Subsection}
+
+\end{Section}
+
+\begin{Section}{Publications}
+\item Development of Hearing Technology with Personalized Safe Listening Features. Gupta, S.; Xu, X.; Liu, H.; Zhang, J.; {\bf Bas, J.}; Kelly, S. 2019 ITU Kaleidoscope Conference Proceedings. 
+\end{Section}
+
+%------------------
+%	Skills SECTION
+%------------------
+
+\begin{Section}{Skills}
+
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+Programming Languages \ & C/C++, SystemVerilog, Python, ARM Assembly, MatLab\\%%, Java \\
+Hardware \ & PCB design, circuit analysis, soldering\\
+Software \& Tools \ & GDB, VCS, Valgrind, EagleCAD, Git, SolidWorks, MS Office\\
+\end{tabular}
+
+\end{Section}
+
+%\newpage
+
+%-----------------
+% Extracurricular
+%-----------------
+% \begin{Section}{Extracurricular} \itemsep -3pt
+% \item CMU Tartan Athletic Fellowship Leader (2017-2020)
+% \item Community Service Trip | Pittsburgh, PA (Spring 2018)
+% \item Community Service Trip | Webster Springs, WV (Spring 2017)
+% \item Community Service Trip to Kusi Orphanage | Yungay, Peru (Spring 2016)
+
+% \end{Section}
+
+\end{document}
